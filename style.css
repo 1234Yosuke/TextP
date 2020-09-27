@@ -1,8 +1,8 @@
-.header {
-    background-color: gray;
+body {
+    background-color: black;
     color: white;
 }
-.body {
-    background-color: black;
+.header {
+    background-color: dimgray;
     color: white;
 }
