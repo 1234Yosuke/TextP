@@ -1,3 +1,8 @@
-﻿.header {
-    background-color: dimgray;
+.header {
+    background-color: GRAY;
+    color: WHITE;
+}
+body {
+    background-color: BRACK;
+    color: WHITE;
 }
