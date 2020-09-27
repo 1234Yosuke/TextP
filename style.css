@@ -3,6 +3,10 @@ body {
     color: white;
 }
 .header {
-    background-color: white;
-    color: black;
+    background-color: dimgray;
+    color: white;
+}
+.footer {
+    background-color: dimgray;
+    color: white;
 }
