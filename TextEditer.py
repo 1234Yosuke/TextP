@@ -10,8 +10,8 @@ class Notepad:
 
     __thisWidth = 300
     __thisHeight = 300
-    __thisTextArea = Text(__root, font="Meiryo")
-    __thisMenuBar = Menu(__root, font="Meiryo")
+    __thisTextArea = Text(__root, font="Meiryo", bg="black", fg="white", insertbackground="white")
+    __thisMenuBar = Menu(__root, font="Meiryo", bg="black")
     __thisFileMenu = Menu(__thisMenuBar,tearoff=0, font="Meiryo")
     __thisEditMenu = Menu(__thisMenuBar,tearoff=0, font="Meiryo")
     __thisHelpMenu = Menu(__thisMenuBar,tearoff=0, font="Meiryo")
@@ -138,5 +138,5 @@ class Notepad:
 
         self.__root.mainloop()
 
-notepad = Notepad(width=600,height=400)
-notepad.run()
+textp = Notepad(width=600,height=400)
+textp.run()
